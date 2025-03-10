@@ -15,7 +15,7 @@ jobs:
       # Step 2: Download Iris dataset (if not in the repo)
       - name: Download Iris Dataset from UCI
         run: |
-          curl -o iris.csv https://raw.githubusercontent.com/kadingula-sainath-04/cicdtesting/refs/heads/main/iris%20(1).csv
+          curl -o iris.csv https://raw.githubusercontent.com/kadingula-sainath-04/cicdtesting/refs/heads/main/iris(1).csv
       # Step 3: Set up Python environment
       - name: Set up Python
         uses: actions/setup-python@v2
